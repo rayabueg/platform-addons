@@ -1,0 +1,11 @@
+apiVersion: platform.rayabueg.dev/v1
+kind: AddonMetadata
+metadata:
+  name: external-dns
+spec:
+  # Cluster tag sets this addon is eligible for. cluster-addons decides
+  # where it *actually* runs by subscribing under clusters/<cluster>/addons/.
+  clusters:
+    - application
+    - appservice
+    - utility
