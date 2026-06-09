@@ -45,6 +45,8 @@ The Gen1 `latest`/`stable`/`rc` channels and `promote.sh` are **retired**:
 | `base/rc` | a pre-release tag `platform-vX.Y.Z-rc.N` |
 | `base/stable` + `promote.sh` | cutting a release tag `platform-vX.Y.Z` |
 
+See [RELEASE.md](RELEASE.md) for the full publish + uprev workflow (branch → PR → tag).
+
 ### Uprev flow
 
 1. Edit `<addon>/hack/values.yaml` and/or bump the chart `VERSION` in `render.sh`.
